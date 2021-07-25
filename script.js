@@ -64,8 +64,8 @@ function start() {
                     <p class="alert alert-success py-1 px-2 my-1">
                     <li>  x' = ${resultado_x1} </li> 
                     <li>  x" = ${resultado_x2} </li> 
-                    <li>  Vx' = ${resultado_vx}</li> 
-                    <li>  Vy" = ${resultado_vy}</li> 
+                    <li>  Vx = ${resultado_vx}</li> 
+                    <li>  Vy = ${resultado_vy}</li> 
                 </ul><br>
                 `
             }
