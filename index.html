@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
+    <title> Calculadora de Bháskara </title>
+</head>
+
+<body class="bg-primary">
+    <div class="container">
+        <div class="h2 my-3 text-center text-light div-principal rounded-3 p-3 m-auto mb-2">
+            Calculadora de Bháskara
+        </div>
+
+        <div class="row">
+            <div class="col-1 col-lg-2"></div>
+
+            <div class="col-10 col-lg-8 bg-light rounded-3 div-central">
+                <p class="h5 text-center my-2">
+                    Insira os valores da equação (ax² + bx² + c = 0) nos formulários abaixo:
+                </p>
+
+                <form action="index.html">
+                    <div class="row">
+                        <input type="number" class="valor-a form-control col mx-2" placeholder="a">
+                        <input type="number" class="valor-b form-control col mx-2" placeholder="b">
+                        <input type="number" class="valor-c form-control col mx-2" placeholder="c">
+                    </div>
+
+                    <div class="row my-3">
+                        <div class="col"></div>
+                        <input type="button" class="col-6 col-lg-3 btn btn-outline-primary rounded-pill px-4 me-4" value="Calcular"  onclick="start()">
+                        <input type="reset" class="col-3 col-lg-1 btn btn-outline-primary rounded-pill px-4 me-4" value="Limpar"  onclick="resetar()">
+                        </button>
+                        <div class="col"></div>
+                    </div>
+                </form>
+
+                <div class="resultado"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
